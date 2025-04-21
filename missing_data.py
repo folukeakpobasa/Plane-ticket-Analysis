@@ -3,7 +3,7 @@ print(planes.isna().sum())
 
 # Find the five percent threshold
 threshold = len(planes) * 0.05
-
+g
 # Create a filter
 cols_to_drop = planes.columns[planes.isna().sum() <= threshold]
 
