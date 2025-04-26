@@ -5,4 +5,5 @@ print(non_numeric)
 for column in non_numeric.columns:
   
   # Print the number of unique values
-  print(f"Number of unique values in {column} column: ", non_numeric[column].nunique())
+  print(f"Number of unique values in \
+      {column} column: ", non_numeric[column].nunique())
